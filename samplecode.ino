@@ -1,6 +1,6 @@
 #include <Adafruit_NeoPixel.h>
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(35, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(35, 0, NEO_GRB + NEO_KHZ800);
 
 void setup() {
   strip.begin();
